@@ -1,0 +1,112 @@
+main {
+  margin-top: 100px;
+}
+
+.objectives {
+  width: 100%;
+  height: 750px;
+  padding: 55px;
+}
+
+.objectives__header {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.objectives__legend {
+  color: var(--light-green);
+}
+
+.objectives__problems {
+  width: 100%;
+  height: 90%;
+}
+
+.objectives__box {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 65px;
+}
+
+.objectives__card {
+  width: 400px;
+  height: 370px;
+  background-color: var(--dark-gray);
+  border-radius: 24px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  transition: 0.2s ease-in;
+}
+
+.objectives__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: var(--black);
+  transition: 0.2s ease-in;
+}
+
+.icon {
+  stroke: var(--white);
+  width: 55%;
+  height: 55%;
+}
+
+.objectives__card:hover {
+  background-color: var(--black);
+  color: var(--white);
+
+  .objectives__icon {
+    background-color: var(--white);
+
+    .icon {
+      stroke: var(--black);
+    }
+  }
+}
+
+.objectives__subtitle {
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+
+.about {
+  width: 100%;
+  height: 580px;
+  background-color: var(--black);
+}
+
+.about__content {
+  width: 75%;
+  height: 100%;
+  margin: auto;
+  padding: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+
+.about__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 35px;
+  color: var(--white);
+}
+
+.about__legend {
+  color: var(--light-green);
+}

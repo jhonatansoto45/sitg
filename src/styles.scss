@@ -1,1 +1,70 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Roboto serif";
+  font-weight: 600;
+  src: url(./assets/fonts/RobotoSerif-SemiBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Roboto serif";
+  font-weight: 700;
+  src: url(./assets/fonts/RobotoSerif-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "DMSans";
+  font-weight: 400;
+  src: url(./assets/fonts/DMSans-Regular.ttf) format("truetype");
+}
+
+:root {
+  --light-green: #64ccc5;
+  --black: #000000;
+  --light-black: #121212;
+  --white: #ffffff;
+  --light-gray: #f4f4f4;
+  --dark-gray: #dfdfdf;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DMSans", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto serif", sans-serif;
+  font-weight: 700;
+}
+
+h4,
+h5,
+h6 {
+  font-family: "Roboto serif", sans-serif;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 4.8rem;
+}
+
+h3 {
+  font-size: 4rem;
+}
+
+h4 {
+  font-size: 2.8rem;
+}
+
+h5 {
+  font-size: 1.9rem;
+}
+
+h6 {
+  font-size: 1.3rem;
+}

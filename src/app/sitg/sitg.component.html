@@ -1,0 +1,148 @@
+<app-menu></app-menu>
+<main>
+  <app-banner></app-banner>
+  <ng-container [ngTemplateOutlet]="objectivesT"> </ng-container>
+  <ng-container [ngTemplateOutlet]="aboutT"> </ng-container>
+  <ng-container [ngTemplateOutlet]="objectivesT"> </ng-container>
+
+  <app-footer></app-footer>
+</main>
+
+<ng-template #objectivesT>
+  <section class="objectives">
+    <div class="objectives__header">
+      <h6 class="objectives__legend">Proyecto</h6>
+      <h3 class="objectives__title">
+        Gestión y seguimiento de trabajos de grado
+      </h3>
+    </div>
+    <article class="objectives__problems">
+      <div class="objectives__box">
+        <div class="objectives__card">
+          <div class="objectives__icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-sitemap"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M3 15m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"
+              />
+              <path
+                d="M15 15m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"
+              />
+              <path
+                d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"
+              />
+              <path d="M6 15v-1a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v1" />
+              <path d="M12 9l0 3" />
+            </svg>
+          </div>
+          <div class="objectives__content">
+            <h6 class="objectives__subtitle">Formulación del problema</h6>
+            <p class="objecttives__paragraph">
+              ¿Cómo diseñar un sistema de información para apoyar la ejecución y
+              seguimiento de los trabajos de grado que se realizan en el Grupo
+              Metis?
+            </p>
+          </div>
+        </div>
+        <div class="objectives__card">
+          <div class="objectives__icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-book"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+              <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+              <path d="M3 6l0 13" />
+              <path d="M12 6l0 13" />
+              <path d="M21 6l0 13" />
+            </svg>
+          </div>
+          <div class="objectives__content">
+            <h6 class="objectives__subtitle">objetivo general</h6>
+            <p class="objecttives__paragraph">
+              Diseñar un sistema de información que permita apoyar la ejecución
+              y seguimiento de los trabajos de grado que se realizan en el Grupo
+              de Investigación Metis.
+            </p>
+          </div>
+        </div>
+        <div class="objectives__card">
+          <div class="objectives__icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-users-group"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M10 13a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+              <path d="M8 21v-1a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v1" />
+              <path d="M15 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+              <path d="M17 10h2a2 2 0 0 1 2 2v1" />
+              <path d="M5 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+              <path d="M3 13v-1a2 2 0 0 1 2 -2h2" />
+            </svg>
+          </div>
+          <div class="objectives__content">
+            <h6 class="objectives__subtitle">objetivo Específico</h6>
+            <p class="objecttives__paragraph">
+              Desarrollar el prototipo de sistema de información que permita
+              soportar los procesos de ejecución y seguimiento del desarrollo de
+              trabajos de grado por parte de los estudiantes vinculados al Grupo
+              de Investigación Metis.
+            </p>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+</ng-template>
+
+<ng-template #aboutT>
+  <div class="about">
+    <div class="about__content">
+      <picture class="about__picture">
+        <img
+          src="../../assets/images/metis.png"
+          alt="Metis"
+          class="about__img"
+        />
+      </picture>
+      <article class="about__description">
+        <h5 class="about__legend">Acerca</h5>
+        <h4 class="about__title">Grupo de Investigación Metis.</h4>
+        <p class="about__paragraph">
+          Desarrollar un prototipo de sistema de información que respalde los
+          procesos de ejecución y seguimiento de los trabajos de grado de los
+          estudiantes vinculados al Grupo de Investigación Metis.
+        </p>
+      </article>
+    </div>
+  </div>
+</ng-template>

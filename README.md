@@ -1,27 +1,48 @@
-# Sitg
+# Sistema de Información para el Seguimiento de Trabajos de Grado (SITG)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.8.
+El **Sistema de Información para el Seguimiento de Trabajos de Grado (SITG)** tiene como objetivo principal apoyar la ejecución y seguimiento de los trabajos de grado realizados por los estudiantes vinculados al **Grupo de Investigación Metis**. Este sistema facilita la gestión de los proyectos de grado, asegurando que se lleve a cabo un seguimiento eficiente de su avance, interacciones con asesores y el cumplimiento de plazos y requisitos establecidos.
 
-## Development server
+## Descripción del Proyecto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+SITG es una herramienta diseñada para mejorar la eficiencia y organización de los trabajos de grado en el contexto académico del Grupo de Investigación Metis. El sistema permite a los estudiantes, asesores y administradores gestionar y monitorear los procesos relacionados con la ejecución de los proyectos de grado, desde su inicio hasta su finalización. 
 
-## Code scaffolding
+## Objetivos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Facilitar la gestión de los trabajos de grado**: Permitir que los estudiantes y asesores gestionen los avances, entregas y retroalimentaciones de los trabajos de grado.
+- **Optimizar el seguimiento académico**: Ofrecer un espacio para el monitoreo de las etapas y resultados de los proyectos de los estudiantes.
+- **Mejorar la comunicación**: Proporcionar una plataforma para facilitar la comunicación entre estudiantes y asesores durante todo el proceso de desarrollo de los trabajos de grado.
+  
+## Características
 
-## Build
+- **Registro y seguimiento de trabajos de grado**: Los estudiantes pueden registrar sus proyectos y realizar un seguimiento del progreso.
+- **Gestión de tareas y entregas**: Los asesores pueden establecer plazos y revisar los avances de los trabajos.
+- **Interfaz intuitiva**: Un sistema amigable y fácil de usar tanto para estudiantes como para asesores.
+- **Reportes y estadísticas**: Generación de reportes sobre el progreso de los trabajos de grado.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Remasterización del Sistema
 
-## Running unit tests
+Este proyecto es una **remaquetación** del sistema original **SITG** (https://sitg.grupometis.org/index.php). La remasterización incluye mejoras en la interfaz de usuario, optimización de la arquitectura y la incorporación de nuevas funcionalidades para hacer el sistema más robusto y eficiente.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Tecnologías Utilizadas
 
-## Running end-to-end tests
+- **Frontend**: [Angular](https://angular.io/), [HTML5], [CSS3], [Bootstrap]
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Instalación
 
-## Further help
+Para instalar y ejecutar el sistema en un entorno local, siga estos pasos:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Clonar este repositorio en su máquina local.
+2. Configurar un servidor local (por ejemplo, XAMPP o WAMP) y asegurarse de que MySQL y PHP estén activos.
+3. Importar la base de datos del sistema original (disponible en el repositorio).
+4. Acceder a la carpeta del proyecto y ejecutar el sistema.
+
+## Contribuciones
+
+Este proyecto es de código abierto y estamos abiertos a contribuciones. Si deseas contribuir, por favor sigue estos pasos:
+
+1. Haz un fork del repositorio.
+2. Crea una rama con tus cambios (`git checkout -b feature/nueva-funcionalidad`).
+3. Realiza tus cambios y confirma los cambios (`git commit -am 'Agrega nueva funcionalidad'`).
+4. Empuja tus cambios al repositorio (`git push origin feature/nueva-funcionalidad`).
+5. Abre un pull request.
+
